@@ -49,7 +49,7 @@ pm2 status
 ### 5. Stop the Existing PM2 Process
 
 ```bash
-pm2 stop Medxbay-b
+pm2 stop medxbay-b
 ```
 
 *Stops the PM2 process named `Medxbay-b`, effectively shutting down the current instance of the backend.*
@@ -57,7 +57,7 @@ pm2 stop Medxbay-b
 ### 6. Start the PM2 Process
 
 ```bash
-pm2 start Medxbay-b
+pm2 start medxbay-b
 ```
 
 *Starts or restarts the backend application using PM2, ensuring it's running under the name `Medxbay-b`.*
@@ -83,7 +83,7 @@ sudo mv build.zip /home/sutheesh-s
 ### 3. Delete All Existing Files in the Directory
 
 ```bash
-sudo rm -rf *
+sudo rm -rf*
 ```
 
 *Removes all files and directories in `/var/www/html` to prepare for the new build deployment.*
@@ -141,4 +141,3 @@ sudo service nginx restart
 This `README` provides a comprehensive guide to deploying a Node.js backend and a React frontend on a GCP VM instance using SSH. Following these steps ensures a smooth deployment process.
 ```
 
-Save this content as `README.md` in your project repository. It will serve as a helpful guide for deploying the backend and frontend on GCP via SSH.
